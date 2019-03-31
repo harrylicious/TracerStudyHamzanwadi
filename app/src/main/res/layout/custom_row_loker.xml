@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/item_info"
+        android:layout_margin="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_info"/>
+
+    <TextView
+        android:id="@+id/nama_loker"
+        android:layout_toRightOf="@id/item_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Makan"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_toRightOf="@id/item_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama_loker"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/roboto_light"
+        android:text="Kata Kerja"
+        android:textStyle="italic"
+        android:textColor="#3C3F41" />
+
+    <TextView
+        android:id="@+id/tgl"
+        android:layout_toRightOf="@id/item_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deskripsi"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/roboto_light"
+        android:text="Kata Kerja"
+        android:textStyle="italic|bold"
+        android:textColor="#3C3F41" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight= "20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true">
+
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/txtWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="22sp"
+            android:fontFamily="@font/roboto_regular"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textColor="@color/gray"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

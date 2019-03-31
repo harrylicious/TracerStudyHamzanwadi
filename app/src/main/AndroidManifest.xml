@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hana.tracerstudy">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:icon="@drawable/alumni"
+        android:roundIcon="@drawable/alumni">
+        <activity android:name=".RegisterDosen"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name=".Main"
+            android:label="Tracer Study FT Universitas Hamzanwadi"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".DaftarAlumni"
+            android:label="Daftar Alumni"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        </activity>
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme"
+            android:label="@string/title_activity_login" >
+
+        </activity>
+        <activity
+            android:name=".TambahAlumni"
+            android:label="@string/title_activity_tambah_mahasiswa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tentang"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DetailAlumni"
+            android:label="Detail Alumni"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginBy"
+            android:label="Login Sebagai"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".DaftarDosen"
+            android:label="@string/title_activity_daftar_dosen"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        </activity>
+        <activity
+            android:name=".MainDosen"
+            android:label="@string/title_activity_main_dosen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Register"
+            android:label="Register Alumni"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".EditProfil"
+            android:label="Edit Profil"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DaftarLoker"
+            android:label="Daftar Loker"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DetailLoker"
+            android:label="Detil Loker"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".TambahLoker"
+            android:label="Tambah Loker"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Welcome"
+            android:label="Tracer Study"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Front"
+            android:label="Front"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DaftarAlumniKerja"
+            android:label="Daftar Alumni Kerja"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DaftarAlumniTidakKerja"
+            android:label="Daftar Alumni Tidak Kerja"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

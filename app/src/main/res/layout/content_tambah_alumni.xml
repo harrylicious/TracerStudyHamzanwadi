@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TambahAlumni"
+    tools:showIn="@layout/activity_tambah_alumni ">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="300dp">
+                  <ImageView
+                      android:src="@drawable/man1"
+                      android:padding="30dp"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content" />
+
+                  <Button
+                      android:layout_alignParentBottom="true"
+                      android:layout_centerHorizontal="true"
+                      android:text="Browse"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" />
+              </RelativeLayout>
+
+              <TextView
+                  android:text="Nama Lengkap:"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+
+              <EditText
+                  android:background="@drawable/border"
+                  android:padding="10dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+              <TextView
+                  android:text="NIM:"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+
+              <EditText
+                  android:background="@drawable/border"
+                  android:padding="10dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+              <TextView
+                  android:text="Jenis Kelamin:"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+
+              <EditText
+                  android:background="@drawable/border"
+                  android:padding="10dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+              <TextView
+                  android:text="Alamat:"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+
+              <EditText
+                  android:background="@drawable/border"
+                  android:padding="10dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+              <TextView
+                  android:text="Status:"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+
+              <EditText
+                  android:background="@drawable/border"
+                  android:padding="10dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+              <TextView
+                  android:text="Pekerjaan:"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+
+              <EditText
+                  android:background="@drawable/border"
+                  android:padding="10dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+          </LinearLayout>
+      </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
